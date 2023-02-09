@@ -1,0 +1,15 @@
+.reactForm {
+  width: 200px;
+  margin: auto;
+}
+
+.reactForm form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.reactForm input,
+.reactForm button {
+  padding: 10px;
+}
