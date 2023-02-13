@@ -1,6 +1,11 @@
 .reactForm {
-  width: 200px;
+  width: 250px;
   margin: auto;
+
+  padding: 20px;
+  border-radius: 3px;
+  border: 3px solid white;
+  background-color: rgb(145, 202, 224);
 }
 
 .reactForm form {
@@ -12,4 +17,19 @@
 .reactForm input,
 .reactForm button {
   padding: 10px;
+}
+
+.reactForm div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reactForm input:focus {
+  outline: none;
+}
+
+.reactForm label {
+  justify-content: center;
+  align-items: center;
 }

@@ -29,13 +29,24 @@ function YupUserForm() {
 
   return (
     <div className="reactForm">
-      Yup Form <br />
+      <h2>Create Account</h2>
       <p style={{ color: "red" }}>{currentErrors}</p>
       <form onSubmit={handleSubmit}>
-        <input type="text" placeholder="username"></input>
-        <input type="email" placeholder="email"></input>
-        <input type="password" placeholder="password"></input>
-        <input type="submit"></input>
+        <div>
+          <label htmlFor="username">username</label>
+          <input type="text" placeholder="username" id="firstName"></input>
+        </div>
+        <div>
+          <label htmlFor="email">email</label>
+          <input type="email" placeholder="email"></input>
+        </div>
+
+        <div>
+          <label htmlFor="password">password</label>
+          <input type="password" placeholder="password"></input>
+        </div>
+
+        <button type="submit">Create Account</button>
       </form>
     </div>
   );
