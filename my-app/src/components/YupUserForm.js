@@ -4,6 +4,7 @@ import "./styles/YupUserForm.css";
 
 function YupUserForm() {
   const [currentErrors, setCurrentErrors] = useState([]);
+
   const handleSubmit = async (event) => {
     event.preventDefault();
     let formData = {
